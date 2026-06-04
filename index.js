@@ -275,7 +275,7 @@ Your ticket has been successfully created.
             });
 
             await interaction.reply({
-                content: `✅ Dein Ticket wurde erstellt: ${channel}`,
+                content: `✅ Your ticket has been created: ${channel}`,
                 ephemeral: true
             });
         }
@@ -297,7 +297,7 @@ Your ticket has been successfully created.
 
             if (!interaction.member.roles.cache.has(STAFF_ROLE_ID)) {
                 return interaction.reply({
-                    content: '❌ Nur Teammitglieder können Tickets übernehmen.',
+                    content: '❌ Only team members can take over tickets.',
                     ephemeral: true
                 });
             }
