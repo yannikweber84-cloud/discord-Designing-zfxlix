@@ -93,26 +93,27 @@ client.on(Events.InteractionCreate, async interaction => {
                 .setColor('#2B2D31')
                 .setTitle('🎫 Allgemeiner Support')
                 .setDescription(`
-Du hast ein Problem, eine Frage oder benötigst Hilfe auf dem Server? Dann bist du hier genau richtig!
+Do you have a problem, a question, or need help on the server ? Then youre in the right place !
 
-Erstelle ein Ticket und beschreibe dein Anliegen so genau wie möglich, damit wir dir schnell und effektiv helfen können.
-
-━━━━━━━━━━━━━━━━━━
-
-📌 **Wobei wir dir helfen können:**
-
-• Fragen zum Server  
-• Probleme / Bugs  
-• Spieler melden  
-• Allgemeine Hilfe  
-• Sonstige Anliegen
+Create a ticket and describe your issue as clearly and in as much detail as possible so we can assist you quickly and effectively.
 
 ━━━━━━━━━━━━━━━━━━
 
-👥 **Bewerbungen & Allgemeiner Support**
+📌 **What we can help you with:**
 
-Du möchtest dich bewerben oder um allgemeinen Support bitten?  
-Dann wähle unten die passende Kategorie aus.
+• Server related questions
+• Problems / Bugs
+• Reporting players
+• General assistance
+• Other Stuff
+
+━━━━━━━━━━━━━━━━━━
+
+👥 **Applications & General Support**
+
+Would you like to apply for a position or request general support?
+
+Select the appropriate category below.
 
 ━━━━━━━━━━━━━━━━━━
                 `)
