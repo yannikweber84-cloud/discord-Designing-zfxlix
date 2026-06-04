@@ -195,7 +195,7 @@ if (selected === "Support") {
 
             if (existing) {
                 return interaction.reply({
-                    content: `❌ Du hast bereits ein Ticket offen: ${existing}`,
+                    content: `❌ You already have a ticket open: ${existing}`,
                     ephemeral: true
                 });
             }
@@ -236,13 +236,13 @@ if (selected === "Support") {
 
             const claimButton = new ButtonBuilder()
                 .setCustomId('claim_ticket')
-                .setLabel('Ticket übernehmen')
+                .setLabel('Take over ticket')
                 .setEmoji('📌')
                 .setStyle(ButtonStyle.Primary);
 
             const closeButton = new ButtonBuilder()
                 .setCustomId('close_ticket')
-                .setLabel('Ticket schließen')
+                .setLabel('Close ticket')
                 .setEmoji('🔒')
                 .setStyle(ButtonStyle.Danger);
 
@@ -306,14 +306,14 @@ Your ticket has been successfully created.
 
             const claimedButton = new ButtonBuilder()
                 .setCustomId('claimed_ticket')
-                .setLabel(`Übernommen von ${interaction.user.username}`)
+                .setLabel(`Taken over from ${interaction.user.username}`)
                 .setEmoji('✅')
                 .setStyle(ButtonStyle.Success)
                 .setDisabled(true);
 
             const closeButton = new ButtonBuilder()
                 .setCustomId('close_ticket')
-                .setLabel('Ticket schließen')
+                .setLabel('Close ticket')
                 .setEmoji('🔒')
                 .setStyle(ButtonStyle.Danger);
 
