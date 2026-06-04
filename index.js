@@ -257,11 +257,11 @@ if (selected === "Support") {
                 .setColor('#57F287')
                 .setTitle(ticketTitle)
                 .setDescription(`
-Hallo ${interaction.user} 👋
+Hello ${interaction.user} 👋
 
-Dein Ticket wurde erfolgreich erstellt.
+Your ticket has been successfully created.
 
-📌 Bitte beschreibe dein Anliegen möglichst genau, damit das Team dir schnell helfen kann.
+📌 Please describe your concern as accurately as possible so that the team can help you quickly.
                 `)
                 .setFooter({
                     text: 'FARM Clan Ticket System'
