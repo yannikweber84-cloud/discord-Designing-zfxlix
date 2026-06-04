@@ -331,9 +331,9 @@ Dein Ticket wurde erfolgreich erstellt.
             const claimEmbed = new EmbedBuilder()
                 .setColor('#5865F2')
                 .setDescription(`
-📌 Der Teamler ${interaction.user} hat das Ticket übernommen.
+📌 The team member ${interaction.user} has taken over the ticket.
 
-Er wird sich zeitnah um dich kümmern!
+He will take care of you shortly!
                 `)
                 .setTimestamp();
 
@@ -349,7 +349,7 @@ Er wird sich zeitnah um dich kümmern!
         if (interaction.customId === 'close_ticket') {
 
             await interaction.reply({
-                content: '🔒 Ticket wird in 3 Sekunden geschlossen...',
+                content: '🔒 Ticket will be closed in 3 seconds...',
                 ephemeral: false
             });
 
