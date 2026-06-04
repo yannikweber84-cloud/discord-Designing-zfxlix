@@ -127,22 +127,22 @@ Select the appropriate category below.
                 .setPlaceholder('Wähle eine Kategorie aus um ein Ticket zu öffnen')
                 .addOptions([
                     {
-                        label: 'Clan Bewerbung',
-                        description: 'Bewirb dich mit deinem Clan',
+                        label: 'Discord Design',
+                        description: 'You would like us to design your server ?',
                         emoji: '🛡',
-                        value: 'clan_bewerbung'
+                        value: 'Discord Design'
                     },
                     {
-                        label: 'Team Bewerbung',
-                        description: 'Bewirb dich für das Team',
+                        label: 'Staff Application',
+                        description: 'Do you want to apply to join our staff?',
                         emoji: '👥',
-                        value: 'team_bewerbung'
+                        value: 'Staff Application'
                     },
                     {
-                        label: 'Allgemeiner Support',
-                        description: 'Hilfe und Support',
+                        label: 'Support',
+                        description: 'You need General Support ?',
                         emoji: '🏗',
-                        value: 'allgemein'
+                        value: 'Support'
                     }
                 ]);
 
@@ -170,22 +170,22 @@ Select the appropriate category below.
 
      let categoryId = "";
 
-if (selected === "clan_bewerbung") {
-    ticketName = `🎫clan-${interaction.user.username}`;
-    ticketTitle = "🛡 Clan Bewerbung";
-    categoryId = "1512038299185975409";
+if (selected === "Discord Design") {
+    ticketName = `🎫Discord Design-${interaction.user.username}`;
+    ticketTitle = "🛡 Discord Design ";
+    categoryId = "1512038511447113738";
 }
 
-if (selected === "team_bewerbung") {
-    ticketName = `🔒team-${interaction.user.username}`;
-    ticketTitle = "👥 Team Bewerbung";
+if (selected === "Staff Application") {
+    ticketName = `🔒Staff Application-${interaction.user.username}`;
+    ticketTitle = "👥Staff Application ";
     categoryId = "1512038406358827068";
 }
 
-if (selected === "allgemein") {
+if (selected === "Support") {
     ticketName = `💬support-${interaction.user.username}`;
-    ticketTitle = "🏗 Allgemeiner Support";
-    categoryId = "1512038511447113738";
+    ticketTitle = "🏗 Support ";
+    categoryId = "1512038299185975409";
 }
             // Prüfen ob Ticket schon existiert
 
