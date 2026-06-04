@@ -331,7 +331,7 @@ Your ticket has been successfully created.
             const claimEmbed = new EmbedBuilder()
                 .setColor('#5865F2')
                 .setDescription(`
-📌 The Staff Member @claimer has claimed the Ticket.
+📌 The Staff Member {interaction.user} has claimed the Ticket.
 
 He will take care of you shortly.
                 `)
