@@ -124,7 +124,7 @@ Select the appropriate category below.
 
             const menu = new StringSelectMenuBuilder()
                 .setCustomId('ticket_menu')
-                .setPlaceholder('Wähle eine Kategorie aus um ein Ticket zu öffnen')
+                .setPlaceholder('Select a category to open a ticket')
                 .addOptions([
                     {
                         label: 'Discord Design',
