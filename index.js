@@ -236,7 +236,7 @@ if (selected === "Support") {
 
             const claimButton = new ButtonBuilder()
                 .setCustomId('claim_ticket')
-                .setLabel('Take over ticket')
+                .setLabel('Claim Ticket')
                 .setEmoji('📌')
                 .setStyle(ButtonStyle.Primary);
 
